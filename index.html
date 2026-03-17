@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Montegnies Steven — Plombier Chauffagiste Climatisation à Orléans et Boigny-sur-Bionne. Dépannage urgent, installation chaudière, climatisation, pompe à chaleur. Devis gratuit. Appel : 02 38 75 96 73." />
+  <meta name="keywords" content="plombier Orléans, dépannage plomberie Orléans, plombier chauffagiste Orléans, fuite eau Orléans, installation climatisation Orléans, chaudière Orléans, Boigny-sur-Bionne" />
+  <meta name="author" content="Montegnies Steven" />
+  <meta property="og:title" content="Plombier Chauffagiste Orléans — Montegnies Steven" />
+  <meta property="og:description" content="Artisan plombier-chauffagiste à Orléans. Urgences, installations, dépannage. Devis gratuit." />
+  <meta property="og:type" content="website" />
+  <title>Plombier Chauffagiste Orléans — Montegnies Steven | 02 38 75 96 73</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Nunito+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ============================================================
+       DESIGN SYSTEM — TOKENS
+    ============================================================ */
+    :root {
+      --blue-900: #0d2e6e;
+      --blue-700: #1565C0;
+      --blue-500: #1976D2;
+      --blue-100: #e3f0ff;
+      --orange:   #F57C00;
+      --orange-light: #fff3e0;
+      --red:      #C62828;
+      --red-light: #ffebee;
+      --gray-50:  #f8f9fb;
+      --gray-100: #f0f2f5;
+      --gray-300: #ced4da;
+      --gray-600: #6c757d;
+      --gray-800: #2d3748;
+      --white:    #ffffff;
+      --radius:   10px;
+      --shadow-sm: 0 2px 8px rgba(21,101,192,.08);
+      --shadow-md: 0 6px 24px rgba(21,101,192,.13);
+      --shadow-lg: 0 12px 48px rgba(21,101,192,.16);
+      --transition: .22s cubic-bezier(.4,0,.2,1);
+      --font-head: 'Sora', sans-serif;
+      --font-body: 'Nunito Sans', sans-serif;
+    }
+
+    /* ============================================================
+       BASE
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      color: var(--gray-800);
+      background: var(--white);
+      line-height: 1.65;
+    }
+    h1, h2, h3, h4, h5 {
+      font-family: var(--font-head);
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--blue-900);
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+
+    /* ============================================================
+       UTILITIES
+    ============================================================ */
+    .section-label {
+      display: inline-block;
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--orange);
+      margin-bottom: .5rem;
+    }
+    .section-title {
+      font-size: clamp(1.55rem, 3.5vw, 2.3rem);
+      margin-bottom: .6rem;
+    }
+    .section-sub {
+      color: var(--gray-600);
+      font-size: 1.05rem;
+      max-width: 560px;
+    }
+    .btn-primary-custom {
+      background: var(--blue-700);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-head);
+      font-weight: 600;
+      font-size: .97rem;
+      padding: .75rem 1.7rem;
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+      box-shadow: 0 4px 14px rgba(21,101,192,.28);
+    }
+    .btn-primary-custom:hover {
+      background: var(--blue-900);
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(21,101,192,.36);
+    }
+    .btn-orange-custom {
+      background: var(--orange);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: 1.05rem;
+      padding: .85rem 2rem;
+      display: inline-flex;
+      align-items: center;
+      gap: .55rem;
+      transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+      box-shadow: 0 4px 18px rgba(245,124,0,.32);
+    }
+    .btn-orange-custom:hover {
+      background: #e65100;
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(245,124,0,.42);
+    }
+    .btn-outline-white {
+      background: transparent;
+      color: #fff;
+      border: 2px solid rgba(255,255,255,.7);
+      border-radius: var(--radius);
+      font-family: var(--font-head);
+      font-weight: 600;
+      font-size: .97rem;
+      padding: .73rem 1.6rem;
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      transition: all var(--transition);
+    }
+    .btn-outline-white:hover {
+      background: rgba(255,255,255,.12);
+      border-color: #fff;
+      color: #fff;
+    }
+
+    /* ============================================================
+       TOPBAR
+    ============================================================ */
+    .topbar {
+      background: var(--blue-900);
+      color: #fff;
+      font-size: .84rem;
+      padding: .45rem 0;
+    }
+    .topbar a { color: #fff; opacity: .88; }
+    .topbar a:hover { opacity: 1; }
+    .topbar-sep::before {
+      content: '|';
+      margin: 0 .75rem;
+      opacity: .35;
+    }
+
+    /* ============================================================
+       NAVBAR
+    ============================================================ */
+    .navbar-main {
+      background: var(--white);
+      border-bottom: 1px solid var(--gray-100);
+      box-shadow: var(--shadow-sm);
+      padding: .9rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1030;
+      transition: box-shadow var(--transition);
+    }
+    .navbar-main.scrolled { box-shadow: var(--shadow-md); }
+    .navbar-brand-wrap .brand-name {
+      font-family: var(--font-head);
+      font-weight: 800;
+      font-size: 1.22rem;
+      color: var(--blue-900);
+      line-height: 1.1;
+    }
+    .navbar-brand-wrap .brand-tagline {
+      font-size: .72rem;
+      color: var(--gray-600);
+      font-weight: 500;
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+    .brand-icon-wrap {
+      width: 44px;
+      height: 44px;
+      background: var(--blue-700);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+    .navbar-nav .nav-link {
+      font-family: var(--font-head);
+      font-size: .9rem;
+      font-weight: 600;
+      color: var(--gray-800);
+      padding: .4rem .8rem !important;
+      border-radius: 6px;
+      transition: color var(--transition), background var(--transition);
+    }
+    .navbar-nav .nav-link:hover {
+      color: var(--blue-700);
+      background: var(--blue-100);
+    }
+    .navbar-call-btn {
+      background: var(--orange);
+      color: #fff;
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: .88rem;
+      padding: .55rem 1.2rem;
+      border-radius: var(--radius);
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      white-space: nowrap;
+      box-shadow: 0 3px 12px rgba(245,124,0,.3);
+      transition: all var(--transition);
+    }
+    .navbar-call-btn:hover {
+      background: #e65100;
+      color: #fff;
+      transform: translateY(-1px);
+    }
+    .navbar-toggler { border: none; padding: .3rem .5rem; }
+    .navbar-toggler:focus { box-shadow: none; }
+
+    /* ============================================================
+       HERO
+    ============================================================ */
+    .hero {
+      background: linear-gradient(135deg, var(--blue-900) 0%, #1a3d8a 55%, #1565C0 100%);
+      padding: 5rem 0 4rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .45rem;
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.22);
+      border-radius: 50px;
+      padding: .35rem 1rem;
+      font-size: .82rem;
+      color: rgba(255,255,255,.9);
+      font-weight: 600;
+      margin-bottom: 1.3rem;
+      backdrop-filter: blur(6px);
+    }
+    .hero-badge i { color: var(--orange); font-size: .9rem; }
+    .hero h1 {
+      font-size: clamp(2rem, 5.5vw, 3.2rem);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    .hero h1 span { color: var(--orange); }
+    .hero p.lead {
+      color: rgba(255,255,255,.82);
+      font-size: clamp(1rem, 2.2vw, 1.18rem);
+      line-height: 1.6;
+      margin-bottom: 2rem;
+      max-width: 540px;
+    }
+    .hero-ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .9rem;
+      margin-bottom: 2.5rem;
+    }
+    .hero-badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .7rem;
+    }
+    .hero-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 50px;
+      padding: .35rem .9rem;
+      font-size: .81rem;
+      color: rgba(255,255,255,.88);
+      font-weight: 500;
+    }
+    .hero-chip i { color: var(--orange); }
+    /* Hero visual card */
+    .hero-card {
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: 18px;
+      padding: 2rem 1.8rem;
+      backdrop-filter: blur(10px);
+      text-align: center;
+      color: #fff;
+      max-width: 340px;
+      margin: 0 auto;
+    }
+    .hero-card .hc-icon {
+      width: 70px;
+      height: 70px;
+      background: var(--orange);
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: #fff;
+      margin: 0 auto 1.2rem;
+      box-shadow: 0 8px 24px rgba(245,124,0,.4);
+    }
+    .hero-card h3 { color: #fff; font-size: 1.1rem; margin-bottom: .4rem; }
+    .hero-card p { color: rgba(255,255,255,.72); font-size: .9rem; margin-bottom: 1.2rem; }
+    .hero-card .hc-phone {
+      font-family: var(--font-head);
+      font-size: 1.55rem;
+      font-weight: 800;
+      color: var(--orange);
+      letter-spacing: .03em;
+      display: block;
+      margin-bottom: 1rem;
+    }
+    .hero-card .availability {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .4rem;
+      font-size: .82rem;
+      color: rgba(255,255,255,.7);
+    }
+    .pulse-dot {
+      width: 8px; height: 8px;
+      background: #4caf50;
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+    }
+    .pulse-dot::after {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      border-radius: 50%;
+      border: 2px solid #4caf50;
+      animation: pulse 1.8s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: .7; }
+      50% { transform: scale(1.5); opacity: 0; }
+    }
+
+    /* ============================================================
+       TRUST BAR
+    ============================================================ */
+    .trust-bar {
+      background: var(--white);
+      border-bottom: 1px solid var(--gray-100);
+      padding: 1.1rem 0;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      font-family: var(--font-head);
+      font-weight: 600;
+      font-size: .88rem;
+      color: var(--gray-800);
+    }
+    .trust-item i {
+      color: var(--blue-700);
+      font-size: 1.15rem;
+    }
+
+    /* ============================================================
+       URGENCE SECTION
+    ============================================================ */
+    .urgence-section {
+      background: linear-gradient(135deg, var(--red) 0%, #b71c1c 100%);
+      padding: 3.5rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .urgence-section::before {
+      content: '';
+      position: absolute;
+      right: -60px;
+      top: -60px;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.05);
+    }
+    .urgence-section::after {
+      content: '';
+      position: absolute;
+      left: -40px;
+      bottom: -80px;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.04);
+    }
+    .urgence-section h2 {
+      color: #fff;
+      font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+    }
+    .urgence-section p { color: rgba(255,255,255,.82); }
+    .urgence-item {
+      display: flex;
+      align-items: flex-start;
+      gap: .7rem;
+      margin-bottom: .7rem;
+      color: rgba(255,255,255,.88);
+      font-size: .95rem;
+    }
+    .urgence-item i {
+      color: var(--orange);
+      font-size: 1.1rem;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+    .urgence-phone-box {
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: 16px;
+      padding: 1.8rem;
+      text-align: center;
+      backdrop-filter: blur(6px);
+    }
+    .urgence-phone-box .phone-label {
+      font-size: .82rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.7);
+      margin-bottom: .4rem;
+    }
+    .urgence-phone-box .phone-number {
+      font-family: var(--font-head);
+      font-size: clamp(1.8rem, 5vw, 2.4rem);
+      font-weight: 800;
+      color: var(--orange);
+      display: block;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    .urgence-horaires {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      background: rgba(255,255,255,.08);
+      border-radius: 50px;
+      padding: .3rem .9rem;
+      font-size: .81rem;
+      color: rgba(255,255,255,.78);
+      margin-top: .6rem;
+    }
+
+    /* ============================================================
+       SERVICES
+    ============================================================ */
+    .services-section { padding: 5rem 0; background: var(--gray-50); }
+    .service-card {
+      background: var(--white);
+      border-radius: 16px;
+      border: 1px solid var(--gray-100);
+      padding: 2rem 1.6rem;
+      height: 100%;
+      transition: all var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--blue-700), var(--blue-500));
+      opacity: 0;
+      transition: opacity var(--transition);
+    }
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--blue-100);
+    }
+    .service-card:hover::before { opacity: 1; }
+    .service-icon {
+      width: 56px; height: 56px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: 1.2rem;
+      transition: transform var(--transition);
+    }
+    .service-card:hover .service-icon { transform: scale(1.08); }
+    .service-icon.blue { background: var(--blue-100); color: var(--blue-700); }
+    .service-icon.orange { background: var(--orange-light); color: var(--orange); }
+    .service-icon.red { background: var(--red-light); color: var(--red); }
+    .service-card h3 { font-size: 1.12rem; margin-bottom: .55rem; }
+    .service-card p { font-size: .91rem; color: var(--gray-600); margin-bottom: 1rem; line-height: 1.55; }
+    .service-list { list-style: none; padding: 0; margin: 0; }
+    .service-list li {
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+      font-size: .87rem;
+      color: var(--gray-600);
+      padding: .22rem 0;
+    }
+    .service-list li i { color: var(--blue-500); font-size: .8rem; flex-shrink: 0; }
+
+    /* ============================================================
+       ARGUMENTS / RÉASSURANCE
+    ============================================================ */
+    .reassurance-section { padding: 5rem 0; background: var(--white); }
+    .arg-card {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-radius: 16px;
+      background: var(--gray-50);
+      border: 1px solid var(--gray-100);
+      height: 100%;
+      transition: all var(--transition);
+    }
+    .arg-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: var(--blue-100);
+      transform: translateY(-2px);
+    }
+    .arg-icon {
+      width: 64px; height: 64px;
+      border-radius: 50%;
+      background: var(--blue-100);
+      color: var(--blue-700);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.7rem;
+      margin: 0 auto 1.2rem;
+    }
+    .arg-card h4 { font-size: 1.05rem; margin-bottom: .5rem; }
+    .arg-card p { font-size: .89rem; color: var(--gray-600); }
+
+    /* ============================================================
+       ZONE D'INTERVENTION
+    ============================================================ */
+    .zone-section { padding: 5rem 0; background: var(--blue-900); }
+    .zone-section .section-label { color: var(--orange); }
+    .zone-section .section-title { color: #fff; }
+    .zone-section .section-sub { color: rgba(255,255,255,.68); }
+    .zone-map-visual {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 20px;
+      padding: 2.5rem;
+      text-align: center;
+      position: relative;
+    }
+    .zone-center {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: .4rem;
+    }
+    .zone-center-dot {
+      width: 60px; height: 60px;
+      background: var(--orange);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem;
+      color: #fff;
+      box-shadow: 0 0 0 12px rgba(245,124,0,.15), 0 0 0 24px rgba(245,124,0,.07);
+      margin-bottom: .7rem;
+    }
+    .zone-center-label {
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: 1rem;
+      color: #fff;
+    }
+    .zone-center-sub { font-size: .78rem; color: rgba(255,255,255,.6); }
+    .zone-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin-top: 1.5rem;
+    }
+    .zone-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.13);
+      border-radius: 50px;
+      padding: .3rem .85rem;
+      font-size: .82rem;
+      color: rgba(255,255,255,.85);
+      font-weight: 500;
+      transition: background var(--transition);
+    }
+    .zone-chip:hover { background: rgba(255,255,255,.14); }
+    .zone-chip i { color: var(--orange); font-size: .75rem; }
+    .zone-radius-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      background: rgba(245,124,0,.18);
+      border: 1px solid rgba(245,124,0,.3);
+      color: var(--orange);
+      border-radius: 50px;
+      padding: .4rem 1.1rem;
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: .88rem;
+      margin-bottom: 1.5rem;
+    }
+
+    /* ============================================================
+       AVIS CLIENTS
+    ============================================================ */
+    .avis-section { padding: 5rem 0; background: var(--gray-50); }
+    .avis-card {
+      background: var(--white);
+      border-radius: 16px;
+      border: 1px solid var(--gray-100);
+      padding: 1.8rem;
+      height: 100%;
+      transition: all var(--transition);
+    }
+    .avis-card:hover {
+      box-shadow: var(--shadow-md);
+      border-color: var(--blue-100);
+      transform: translateY(-3px);
+    }
+    .avis-stars { color: #f9a825; font-size: 1rem; margin-bottom: .8rem; letter-spacing: .05em; }
+    .avis-text {
+      font-size: .93rem;
+      color: var(--gray-800);
+      line-height: 1.6;
+      margin-bottom: 1.1rem;
+      font-style: italic;
+    }
+    .avis-author { display: flex; align-items: center; gap: .7rem; }
+    .avis-avatar {
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: var(--blue-700);
+      color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: .9rem;
+      flex-shrink: 0;
+    }
+    .avis-name { font-family: var(--font-head); font-weight: 700; font-size: .9rem; }
+    .avis-meta { font-size: .78rem; color: var(--gray-600); }
+    .avis-source {
+      display: inline-flex;
+      align-items: center;
+      gap: .25rem;
+      font-size: .75rem;
+      color: var(--gray-600);
+      margin-top: .3rem;
+    }
+
+    /* ============================================================
+       CONTACT / DEVIS
+    ============================================================ */
+    .contact-section { padding: 5rem 0; background: var(--white); }
+    .contact-card {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-100);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+    }
+    .contact-info-block {
+      background: var(--blue-900);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      color: #fff;
+      height: 100%;
+    }
+    .contact-info-block h3 { color: #fff; margin-bottom: 1.5rem; }
+    .contact-info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: .8rem;
+      margin-bottom: 1.3rem;
+    }
+    .contact-info-icon {
+      width: 40px; height: 40px;
+      background: rgba(255,255,255,.1);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--orange);
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .contact-info-label {
+      font-size: .78rem;
+      color: rgba(255,255,255,.6);
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-weight: 600;
+    }
+    .contact-info-value {
+      font-family: var(--font-head);
+      font-weight: 600;
+      color: #fff;
+      font-size: .97rem;
+      line-height: 1.4;
+    }
+    .contact-info-value a {
+      color: var(--orange);
+      font-size: 1.25rem;
+      font-weight: 800;
+    }
+    .form-label-custom {
+      font-family: var(--font-head);
+      font-weight: 600;
+      font-size: .88rem;
+      color: var(--gray-800);
+      margin-bottom: .4rem;
+    }
+    .form-control-custom {
+      border: 1.5px solid var(--gray-300);
+      border-radius: var(--radius);
+      padding: .7rem 1rem;
+      font-family: var(--font-body);
+      font-size: .95rem;
+      color: var(--gray-800);
+      background: var(--white);
+      transition: border-color var(--transition), box-shadow var(--transition);
+      width: 100%;
+    }
+    .form-control-custom:focus {
+      outline: none;
+      border-color: var(--blue-500);
+      box-shadow: 0 0 0 3px rgba(21,101,192,.12);
+    }
+    select.form-control-custom { cursor: pointer; }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    footer {
+      background: #080f1e;
+      color: rgba(255,255,255,.7);
+      padding: 3.5rem 0 0;
+    }
+    footer .footer-brand-name {
+      font-family: var(--font-head);
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+    footer .footer-desc {
+      font-size: .88rem;
+      line-height: 1.6;
+      margin-top: .7rem;
+      max-width: 280px;
+    }
+    footer h5 {
+      font-family: var(--font-head);
+      font-size: .9rem;
+      color: #fff;
+      margin-bottom: 1rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    footer ul { list-style: none; padding: 0; margin: 0; }
+    footer ul li { margin-bottom: .5rem; }
+    footer ul li a {
+      color: rgba(255,255,255,.62);
+      font-size: .88rem;
+      transition: color var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+    }
+    footer ul li a:hover { color: var(--orange); }
+    footer ul li a i { font-size: .7rem; }
+    footer .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: .6rem;
+      margin-bottom: .8rem;
+      font-size: .88rem;
+    }
+    footer .footer-contact-item i { color: var(--orange); margin-top: 2px; flex-shrink: 0; }
+    footer .footer-phone-link {
+      color: var(--orange) !important;
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.07);
+      padding: 1.2rem 0;
+      margin-top: 3rem;
+    }
+    .footer-bottom p { font-size: .82rem; color: rgba(255,255,255,.4); margin: 0; }
+    .footer-bottom a { color: rgba(255,255,255,.55); transition: color var(--transition); }
+    .footer-bottom a:hover { color: var(--orange); }
+
+    /* ============================================================
+       CTA FLOTTANT MOBILE
+    ============================================================ */
+    .float-cta-bar {
+      display: none;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 1040;
+      background: var(--white);
+      border-top: 1px solid var(--gray-100);
+      box-shadow: 0 -4px 20px rgba(0,0,0,.12);
+      padding: .8rem 1rem;
+    }
+    @media (max-width: 767.98px) {
+      .float-cta-bar { display: flex; gap: .6rem; }
+      body { padding-bottom: 80px; }
+    }
+    .float-btn-call {
+      flex: 1;
+      background: var(--orange);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-head);
+      font-weight: 700;
+      font-size: .95rem;
+      padding: .7rem;
+      display: flex; align-items: center; justify-content: center; gap: .4rem;
+      text-decoration: none;
+    }
+    .float-btn-devis {
+      flex: 1;
+      background: var(--blue-700);
+      color: #fff;
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-head);
+      font-weight: 600;
+      font-size: .88rem;
+      padding: .7rem;
+      display: flex; align-items: center; justify-content: center; gap: .4rem;
+      text-decoration: none;
+    }
+
+    /* ============================================================
+       RESPONSIVE ADJUSTMENTS
+    ============================================================ */
+    @media (max-width: 991.98px) {
+      .hero { padding: 3.5rem 0 3rem; }
+      .hero-card { display: none; }
+      .hero h1 { font-size: clamp(1.8rem, 7vw, 2.5rem); }
+    }
+    @media (max-width: 575.98px) {
+      .hero-ctas { flex-direction: column; }
+      .hero-ctas a, .hero-ctas button { width: 100%; justify-content: center; }
+    }
+
+    /* ============================================================
+       FORM SUCCESS
+    ============================================================ */
+    .form-success-box {
+      display: none;
+      background: #e8f5e9;
+      border: 1px solid #a5d6a7;
+      border-radius: var(--radius);
+      padding: 1.2rem 1.5rem;
+      color: #1b5e20;
+      font-family: var(--font-head);
+      font-weight: 600;
+      font-size: .95rem;
+      align-items: center;
+      gap: .6rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       TOPBAR
+  ============================================================ -->
+  <div class="topbar d-none d-md-block">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-1">
+          <i class="bi bi-geo-alt-fill me-1" style="color:var(--orange)"></i>
+          Boigny-sur-Bionne — Orléans (Loiret)
+          <span class="topbar-sep"></span>
+          <i class="bi bi-clock-fill me-1" style="color:var(--orange)"></i>
+          Lun–Sam : 7h00 – 20h00
+        </div>
+        <div class="d-flex align-items-center gap-1">
+          <i class="bi bi-telephone-fill me-1" style="color:var(--orange)"></i>
+          <a href="tel:0238759673" style="font-weight:700;">02 38 75 96 73</a>
+          <span class="topbar-sep"></span>
+          <i class="bi bi-envelope-fill me-1" style="color:var(--orange)"></i>
+          <a href="mailto:contact@montegnies-plomberie.fr">contact@montegnies-plomberie.fr</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav class="navbar-main" id="mainNav">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between gap-3">
+        <!-- Brand -->
+        <a href="#accueil" class="d-flex align-items-center gap-2 text-decoration-none">
+          <div class="brand-icon-wrap">
+            <i class="bi bi-droplet-half"></i>
+          </div>
+          <div class="navbar-brand-wrap">
+            <div class="brand-name">Montegnies Steven</div>
+            <div class="brand-tagline">Plombier &bull; Chauffagiste &bull; Climatisation</div>
+          </div>
+        </a>
+
+        <!-- Nav links desktop -->
+        <ul class="navbar-nav flex-row gap-1 d-none d-lg-flex">
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#urgence">Urgence</a></li>
+          <li><a class="nav-link" href="#zone">Zone</a></li>
+          <li><a class="nav-link" href="#avis">Avis</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- CTA + Toggle -->
+        <div class="d-flex align-items-center gap-2">
+          <a href="tel:0238759673" class="navbar-call-btn">
+            <i class="bi bi-telephone-fill"></i>
+            <span class="d-none d-sm-inline">02 38 75 96 73</span>
+            <span class="d-inline d-sm-none">Appeler</span>
+          </a>
+          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+            <i class="bi bi-list fs-4 text-dark"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="collapse" id="navCollapse">
+        <ul class="navbar-nav py-2 gap-1">
+          <li><a class="nav-link" href="#services" data-bs-toggle="collapse" data-bs-target="#navCollapse">Services</a></li>
+          <li><a class="nav-link" href="#urgence" data-bs-toggle="collapse" data-bs-target="#navCollapse">Urgence</a></li>
+          <li><a class="nav-link" href="#zone" data-bs-toggle="collapse" data-bs-target="#navCollapse">Zone d'intervention</a></li>
+          <li><a class="nav-link" href="#avis" data-bs-toggle="collapse" data-bs-target="#navCollapse">Avis clients</a></li>
+          <li><a class="nav-link" href="#contact" data-bs-toggle="collapse" data-bs-target="#navCollapse">Contact & Devis</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero" id="accueil">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-7">
+          <div class="hero-badge">
+            <i class="bi bi-patch-check-fill"></i>
+            Artisan qualifié — Loiret (45)
+          </div>
+          <h1>
+            Votre plombier<br />chauffagiste à <span>Orléans</span>
+          </h1>
+          <p class="lead">
+            Dépannage rapide, installation et entretien de vos équipements de plomberie, chauffage et climatisation. Devis gratuit sous 24h, intervention sur Orléans et tout le Loiret.
+          </p>
+          <div class="hero-ctas">
+            <a href="tel:0238759673" class="btn-orange-custom">
+              <i class="bi bi-telephone-fill"></i>
+              Appeler maintenant — 02 38 75 96 73
+            </a>
+            <a href="#contact" class="btn-outline-white">
+              <i class="bi bi-file-earmark-text"></i>
+              Devis gratuit
+            </a>
+          </div>
+          <div class="hero-badges-row">
+            <span class="hero-chip"><i class="bi bi-lightning-charge-fill"></i> Intervention rapide</span>
+            <span class="hero-chip"><i class="bi bi-shield-check"></i> Assurance décennale</span>
+            <span class="hero-chip"><i class="bi bi-tag-fill"></i> Devis gratuit</span>
+            <span class="hero-chip"><i class="bi bi-geo-alt-fill"></i> Loiret (45)</span>
+          </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="hero-card">
+            <div class="hc-icon"><i class="bi bi-telephone-fill"></i></div>
+            <h3>Appelez directement</h3>
+            <p>Réponse immédiate — sans attente</p>
+            <a href="tel:0238759673" class="hc-phone">02 38 75 96 73</a>
+            <a href="tel:0238759673" class="btn-orange-custom w-100 justify-content-center">
+              <i class="bi bi-telephone-fill"></i>
+              Appeler maintenant
+            </a>
+            <div class="availability mt-3">
+              <span class="pulse-dot"></span>
+              Disponible Lun–Sam 7h – 20h
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TRUST BAR
+  ============================================================ -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="row gy-2 justify-content-center text-center text-md-start">
+        <div class="col-6 col-md-3">
+          <div class="trust-item justify-content-center">
+            <i class="bi bi-award-fill"></i>
+            <span>Artisan certifié</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="trust-item justify-content-center">
+            <i class="bi bi-clock-fill"></i>
+            <span>Intervention rapide</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="trust-item justify-content-center">
+            <i class="bi bi-file-earmark-check-fill"></i>
+            <span>Devis gratuit</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="trust-item justify-content-center">
+            <i class="bi bi-shield-fill-check"></i>
+            <span>Travaux garantis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       URGENCE
+  ============================================================ -->
+  <section class="urgence-section" id="urgence">
+    <div class="container position-relative">
+      <div class="row align-items-center gy-4">
+        <div class="col-lg-7">
+          <span class="section-label d-inline-flex align-items-center gap-1" style="color:rgba(255,255,255,.6)">
+            <i class="bi bi-exclamation-triangle-fill" style="color:var(--orange)"></i>
+            Intervention d'urgence
+          </span>
+          <h2 class="mb-1">Urgence plomberie ou chauffage ?</h2>
+          <p class="mb-3" style="color:rgba(255,255,255,.78)">
+            Ne laissez pas une panne ou une fuite s'aggraver. Appelez-moi directement pour une intervention rapide sur Orléans et ses environs.
+          </p>
+          <div class="mb-1">
+            <div class="urgence-item">
+              <i class="bi bi-check-circle-fill"></i>
+              <span>Fuite d'eau — robinetterie, canalisation, chauffe-eau</span>
+            </div>
+            <div class="urgence-item">
+              <i class="bi bi-check-circle-fill"></i>
+              <span>Panne chaudière — perte de chauffage ou d'eau chaude</span>
+            </div>
+            <div class="urgence-item">
+              <i class="bi bi-check-circle-fill"></i>
+              <span>Canalisation bouchée — WC, douche, évier</span>
+            </div>
+            <div class="urgence-item">
+              <i class="bi bi-check-circle-fill"></i>
+              <span>Dégât des eaux — diagnostic et réparation sur place</span>
+            </div>
+            <div class="urgence-item">
+              <i class="bi bi-check-circle-fill"></i>
+              <span>Panne climatisation ou pompe à chaleur</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="urgence-phone-box">
+            <p class="phone-label">Ligne directe urgences</p>
+            <a href="tel:0238759673" class="phone-number">02 38 75 96 73</a>
+            <a href="tel:0238759673" class="btn-orange-custom w-100 justify-content-center mb-2">
+              <i class="bi bi-telephone-fill"></i>
+              Appeler maintenant
+            </a>
+            <div class="urgence-horaires">
+              <i class="bi bi-clock"></i>
+              Disponible du Lundi au Samedi, 7h – 20h
+            </div>
+            <p style="font-size:.78rem; color:rgba(255,255,255,.55); margin-top:.6rem; margin-bottom:0;">
+              Déplacement rapide — Diagnostic gratuit sur devis
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-label">Nos prestations</span>
+        <h2 class="section-title">Services plomberie, chauffage<br class="d-none d-md-inline" /> et climatisation à Orléans</h2>
+        <p class="section-sub mx-auto">
+          Artisan plombier-chauffagiste qualifié, j'interviens sur tous vos besoins : dépannage rapide, installation complète ou simple entretien.
+        </p>
+      </div>
+
+      <div class="row gy-4">
+        <!-- Plomberie -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon blue"><i class="bi bi-droplet-fill"></i></div>
+            <h3>Plomberie &amp; Sanitaires</h3>
+            <p>Installation, réparation et remplacement de toutes vos installations sanitaires. Intervention soignée avec garantie sur les travaux réalisés.</p>
+            <ul class="service-list">
+              <li><i class="bi bi-dot"></i> Remplacement robinetterie et mitigeur</li>
+              <li><i class="bi bi-dot"></i> Installation WC, douche, baignoire</li>
+              <li><i class="bi bi-dot"></i> Réparation fuite canalisation</li>
+              <li><i class="bi bi-dot"></i> Débouchage canalisation</li>
+              <li><i class="bi bi-dot"></i> Pose chauffe-eau et ballon</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Chauffage -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon orange"><i class="bi bi-fire"></i></div>
+            <h3>Chauffage &amp; Chaudière</h3>
+            <p>Installation, remplacement et entretien de chaudières gaz, fioul et électrique. Contrats d'entretien annuel disponibles avec rapport d'intervention.</p>
+            <ul class="service-list">
+              <li><i class="bi bi-dot"></i> Installation chaudière gaz / fioul</li>
+              <li><i class="bi bi-dot"></i> Entretien annuel obligatoire</li>
+              <li><i class="bi bi-dot"></i> Dépannage panne chaudière</li>
+              <li><i class="bi bi-dot"></i> Installation et pose de radiateurs</li>
+              <li><i class="bi bi-dot"></i> Remplacement ballon thermodynamique</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Climatisation -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon blue"><i class="bi bi-snow"></i></div>
+            <h3>Climatisation &amp; PAC</h3>
+            <p>Installation et maintenance de systèmes de climatisation et pompes à chaleur air/air et air/eau. Profitez des aides MaPrimeRénov' et des économies sur vos factures.</p>
+            <ul class="service-list">
+              <li><i class="bi bi-dot"></i> Installation climatiseur gainable / split</li>
+              <li><i class="bi bi-dot"></i> Pompe à chaleur air/air et air/eau</li>
+              <li><i class="bi bi-dot"></i> Chauffe-eau thermodynamique</li>
+              <li><i class="bi bi-dot"></i> Entretien et maintenance PAC</li>
+              <li><i class="bi bi-dot"></i> Dépannage climatisation</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Urgence -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon red"><i class="bi bi-lightning-charge-fill"></i></div>
+            <h3>Dépannage &amp; Urgences</h3>
+            <p>Intervention rapide pour tout dépannage plomberie ou chauffage. Je me déplace rapidement sur Orléans et ses communes limitrophes.</p>
+            <ul class="service-list">
+              <li><i class="bi bi-dot"></i> Fuite d'eau urgente</li>
+              <li><i class="bi bi-dot"></i> Panne chaudière ou chauffage</li>
+              <li><i class="bi bi-dot"></i> Canalisation bouchée ou éclatée</li>
+              <li><i class="bi bi-dot"></i> Dégât des eaux</li>
+              <li><i class="bi bi-dot"></i> Panne chauffe-eau</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Salle de bain -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon blue"><i class="bi bi-house-heart-fill"></i></div>
+            <h3>Salle de bain clé-en-main</h3>
+            <p>Rénovation ou création complète de salle de bain : de la conception à la réalisation. Matériaux au choix, finitions soignées, devis détaillé gratuit.</p>
+            <ul class="service-list">
+              <li><i class="bi bi-dot"></i> Rénovation salle de bain complète</li>
+              <li><i class="bi bi-dot"></i> Reconfiguration de l'espace</li>
+              <li><i class="bi bi-dot"></i> Pose carrelage et revêtement</li>
+              <li><i class="bi bi-dot"></i> Installation douche à l'italienne</li>
+              <li><i class="bi bi-dot"></i> Meuble vasque, WC suspendu</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Entretien -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon orange"><i class="bi bi-tools"></i></div>
+            <h3>Entretien &amp; Maintenance</h3>
+            <p>Maintenez vos équipements en parfait état avec un contrat d'entretien adapté. Prévention des pannes, longévité des appareils, conformité réglementaire garantie.</p>
+            <ul class="service-list">
+              <li><i class="bi bi-dot"></i> Contrat entretien chaudière annuel</li>
+              <li><i class="bi bi-dot"></i> Entretien climatisation et PAC</li>
+              <li><i class="bi bi-dot"></i> Détartrage chauffe-eau</li>
+              <li><i class="bi bi-dot"></i> Inspection caméra canalisations</li>
+              <li><i class="bi bi-dot"></i> Bilan plomberie complet</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4 pt-2">
+        <a href="#contact" class="btn-primary-custom">
+          <i class="bi bi-file-earmark-text-fill"></i>
+          Demander un devis gratuit
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       RÉASSURANCE
+  ============================================================ -->
+  <section class="reassurance-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-label">Pourquoi nous choisir</span>
+        <h2 class="section-title">Un artisan local de confiance</h2>
+        <p class="section-sub mx-auto">
+          Votre satisfaction est ma priorité. Chaque intervention est réalisée avec soin, dans le respect des normes en vigueur.
+        </p>
+      </div>
+      <div class="row gy-4">
+        <div class="col-sm-6 col-lg-3">
+          <div class="arg-card">
+            <div class="arg-icon"><i class="bi bi-award-fill"></i></div>
+            <h4>Artisan qualifié</h4>
+            <p>Professionnel certifié, immatriculé au registre des métiers. Activité artisanale réglementée (NAF 4322A).</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="arg-card">
+            <div class="arg-icon"><i class="bi bi-shield-check"></i></div>
+            <h4>Travaux garantis</h4>
+            <p>Chaque intervention est couverte par notre assurance responsabilité civile professionnelle et garantie décennale.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="arg-card">
+            <div class="arg-icon"><i class="bi bi-tag-fill"></i></div>
+            <h4>Devis 100% gratuit</h4>
+            <p>Devis détaillé et sans engagement sous 24h. Tarif transparent, sans surprise, sans frais de déplacement cachés.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="arg-card">
+            <div class="arg-icon"><i class="bi bi-geo-alt-fill"></i></div>
+            <h4>Artisan local</h4>
+            <p>Basé à Boigny-sur-Bionne, j'interviens rapidement sur Orléans et toutes les communes du Loiret (45) dans un rayon de 30 km.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ZONE D'INTERVENTION
+  ============================================================ -->
+  <section class="zone-section" id="zone">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-5">
+          <span class="section-label">Zone d'intervention</span>
+          <h2 class="section-title mb-2">Orléans et tout le Loiret (45)</h2>
+          <p class="section-sub mb-4">
+            Plombier-chauffagiste basé à Boigny-sur-Bionne, j'interviens rapidement dans un rayon de 30 km autour d'Orléans. Vous ne trouvez pas votre commune ? Contactez-moi directement.
+          </p>
+          <div class="zone-radius-badge">
+            <i class="bi bi-geo-alt-fill"></i>
+            Rayon d'intervention : 30 km autour d'Orléans
+          </div>
+          <div class="zone-chips">
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Orléans</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Boigny-sur-Bionne</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Saint-Jean-de-Braye</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Fleury-les-Aubrais</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Saint-Denis-en-Val</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Olivet</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Saint-Jean-le-Blanc</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Saran</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Ingré</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> La Source</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Saint-Pryvé-Saint-Mesmin</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Chécy</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Mardié</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Donnery</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Semoy</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Bou</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Sandillon</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Jargeau</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Meung-sur-Loire</span>
+            <span class="zone-chip"><i class="bi bi-geo-alt-fill"></i> Châteauneuf-sur-Loire</span>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="zone-map-visual">
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:400px;margin:0 auto;display:block;opacity:.85">
+              <!-- Cercle de zone -->
+              <circle cx="200" cy="150" r="110" fill="none" stroke="rgba(245,124,0,.25)" stroke-width="1.5" stroke-dasharray="6,4" />
+              <circle cx="200" cy="150" r="75" fill="none" stroke="rgba(245,124,0,.18)" stroke-width="1" stroke-dasharray="4,4" />
+              <!-- Points communes -->
+              <circle cx="200" cy="150" r="28" fill="rgba(245,124,0,.12)" />
+              <!-- Orléans -->
+              <circle cx="200" cy="150" r="8" fill="var(--orange)" />
+              <text x="212" y="146" fill="white" font-size="9" font-family="Sora,sans-serif" font-weight="700">Orléans</text>
+              <!-- Boigny -->
+              <circle cx="235" cy="143" r="5" fill="rgba(255,255,255,.6)" />
+              <text x="243" y="141" fill="rgba(255,255,255,.7)" font-size="7" font-family="Sora,sans-serif">Boigny-s-B.</text>
+              <!-- St Jean de Braye -->
+              <circle cx="224" cy="128" r="4" fill="rgba(255,255,255,.5)" />
+              <!-- Fleury -->
+              <circle cx="197" cy="120" r="4" fill="rgba(255,255,255,.5)" />
+              <!-- Olivet -->
+              <circle cx="195" cy="175" r="4" fill="rgba(255,255,255,.5)" />
+              <text x="202" y="178" fill="rgba(255,255,255,.7)" font-size="7" font-family="Sora,sans-serif">Olivet</text>
+              <!-- Saran -->
+              <circle cx="178" cy="122" r="4" fill="rgba(255,255,255,.5)" />
+              <text x="155" y="120" fill="rgba(255,255,255,.7)" font-size="7" font-family="Sora,sans-serif">Saran</text>
+              <!-- St-Jean-le-Blanc -->
+              <circle cx="212" cy="165" r="4" fill="rgba(255,255,255,.5)" />
+              <!-- Chécy -->
+              <circle cx="254" cy="138" r="4" fill="rgba(255,255,255,.5)" />
+              <text x="260" y="140" fill="rgba(255,255,255,.7)" font-size="7" font-family="Sora,sans-serif">Chécy</text>
+              <!-- Ingré -->
+              <circle cx="155" cy="148" r="4" fill="rgba(255,255,255,.5)" />
+              <!-- Label centre -->
+              <circle cx="95" cy="40" r="6" fill="var(--orange)" opacity=".7" />
+              <text x="106" y="44" fill="rgba(255,255,255,.8)" font-size="9" font-family="Sora,sans-serif" font-weight="600">Base : Boigny-sur-Bionne</text>
+              <!-- Rayon -->
+              <text x="200" y="270" fill="rgba(255,255,255,.45)" font-size="8" font-family="Sora,sans-serif" text-anchor="middle">Zone d'intervention — 30 km</text>
+            </svg>
+            <p style="font-size:.78rem;color:rgba(255,255,255,.5);margin-top:.5rem;text-align:center;">
+              Vous n'etes pas sur la carte ? Appelez-moi, j'étudie chaque demande.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       AVIS CLIENTS
+  ============================================================ -->
+  <section class="avis-section" id="avis">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-label">Avis clients</span>
+        <h2 class="section-title">Ce que disent nos clients</h2>
+        <p class="section-sub mx-auto">
+          Des particuliers et professionnels d'Orléans nous font confiance pour leurs travaux de plomberie et chauffage.
+        </p>
+      </div>
+
+      <div class="row gy-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="avis-card">
+            <div class="avis-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="avis-text">"Intervention très rapide pour une fuite sous évier. Steven est arrivé dans l'heure, a diagnostiqué et réparé le problème proprement. Tarif honnête et travail soigné. Je recommande sans hésiter."</p>
+            <div class="avis-author">
+              <div class="avis-avatar">MP</div>
+              <div>
+                <div class="avis-name">Marie-Pierre L.</div>
+                <div class="avis-meta">Orléans — Plomberie urgence</div>
+                <div class="avis-source"><i class="bi bi-google"></i> Avis Google</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="avis-card">
+            <div class="avis-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="avis-text">"Remplacement complet de ma chaudière gaz. Devis clair et détaillé, délai respecté, installation parfaite. L'artisan prend le temps d'expliquer ce qu'il fait. Très satisfaite, je referai appel à lui."</p>
+            <div class="avis-author">
+              <div class="avis-avatar" style="background:var(--orange)">FB</div>
+              <div>
+                <div class="avis-name">Fabrice B.</div>
+                <div class="avis-meta">Saint-Jean-de-Braye — Chaudière</div>
+                <div class="avis-source"><i class="bi bi-google"></i> Avis Google</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="avis-card">
+            <div class="avis-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="avis-text">"Installation d'une pompe à chaleur air/air chez nous. Très professionnel, conseils avisés pour profiter des aides MaPrimeRénov'. Résultat impeccable, on est ravis de nos économies d'énergie."</p>
+            <div class="avis-author">
+              <div class="avis-avatar" style="background:#37474f">JC</div>
+              <div>
+                <div class="avis-name">Jean-Claude M.</div>
+                <div class="avis-meta">Olivet — Pompe à chaleur</div>
+                <div class="avis-source"><i class="bi bi-google"></i> Avis Google</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="avis-card">
+            <div class="avis-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="avis-text">"Débouchage d'une canalisation avec inspection caméra. Travail sérieux, propre, explication claire du problème. Il a réglé le souci définitivement là où d'autres avaient échoué. Excellent artisan."</p>
+            <div class="avis-author">
+              <div class="avis-avatar" style="background:#2e7d32">SD</div>
+              <div>
+                <div class="avis-name">Sophie D.</div>
+                <div class="avis-meta">Fleury-les-Aubrais — Débouchage</div>
+                <div class="avis-source"><i class="bi bi-star-fill"></i> Pages Jaunes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="avis-card">
+            <div class="avis-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="avis-text">"Rénovation de notre salle de bain de A à Z. Travail remarquable, respect des délais et du budget annoncé. Steven est ponctuel, propre sur son chantier et à l'écoute. On est enchantés du résultat."</p>
+            <div class="avis-author">
+              <div class="avis-avatar" style="background:#6a1b9a">NR</div>
+              <div>
+                <div class="avis-name">Nicolas &amp; Rachel V.</div>
+                <div class="avis-meta">Saran — Rénovation salle de bain</div>
+                <div class="avis-source"><i class="bi bi-google"></i> Avis Google</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="avis-card">
+            <div class="avis-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="avis-text">"Entretien annuel chaudière effectué dans les règles. Très réactif pour prendre rendez-vous, rapport d'entretien fourni dans la journée. Je l'ai recommandé à toute ma copropriété. Sérieux et compétent."</p>
+            <div class="avis-author">
+              <div class="avis-avatar" style="background:#00838f">AT</div>
+              <div>
+                <div class="avis-name">Adèle T.</div>
+                <div class="avis-meta">Orléans — Entretien chaudière</div>
+                <div class="avis-source"><i class="bi bi-star-fill"></i> Pages Jaunes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Note globale -->
+      <div class="text-center mt-5">
+        <div class="d-inline-flex align-items-center gap-3 px-4 py-3 rounded-pill" style="background:var(--white);border:1px solid var(--gray-100);box-shadow:var(--shadow-sm)">
+          <div>
+            <div style="font-family:var(--font-head);font-size:2.2rem;font-weight:800;color:var(--blue-900);line-height:1">5.0</div>
+            <div style="font-size:.75rem;color:var(--gray-600)">note moyenne</div>
+          </div>
+          <div>
+            <div style="color:#f9a825;font-size:1.1rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <div style="font-size:.78rem;color:var(--gray-600)">Basé sur les avis clients</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT & DEVIS
+  ============================================================ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="section-label">Contact &amp; Devis</span>
+        <h2 class="section-title">Demandez votre devis gratuit</h2>
+        <p class="section-sub mx-auto">
+          Remplissez le formulaire ou appelez-moi directement. Je vous réponds sous 24h et me déplace gratuitement pour établir votre devis.
+        </p>
+      </div>
+
+      <div class="row gy-4 align-items-stretch">
+        <!-- Infos de contact -->
+        <div class="col-lg-4">
+          <div class="contact-info-block h-100">
+            <h3>Nous contacter</h3>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-telephone-fill"></i></div>
+              <div>
+                <div class="contact-info-label">Téléphone</div>
+                <div class="contact-info-value">
+                  <a href="tel:0238759673">02 38 75 96 73</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-envelope-fill"></i></div>
+              <div>
+                <div class="contact-info-label">Email</div>
+                <div class="contact-info-value">contact@montegnies-plomberie.fr</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-geo-alt-fill"></i></div>
+              <div>
+                <div class="contact-info-label">Adresse</div>
+                <div class="contact-info-value">3 Rue de Ponchapt<br />45760 Boigny-sur-Bionne</div>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><i class="bi bi-clock-fill"></i></div>
+              <div>
+                <div class="contact-info-label">Horaires</div>
+                <div class="contact-info-value">Lun – Sam : 7h00 – 20h00<br /><span style="font-size:.83rem;color:rgba(255,255,255,.6);">Dimanche sur appel</span></div>
+              </div>
+            </div>
+
+            <div style="margin-top:1.5rem;padding-top:1.5rem;border-top:1px solid rgba(255,255,255,.1);">
+              <a href="tel:0238759673" class="btn-orange-custom w-100 justify-content-center">
+                <i class="bi bi-telephone-fill"></i>
+                Appeler maintenant
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulaire -->
+        <div class="col-lg-8">
+          <div class="contact-card h-100">
+            <div class="form-success-box" id="formSuccess">
+              <i class="bi bi-check-circle-fill fs-5" style="color:#2e7d32"></i>
+              Votre demande a bien été envoyée. Je vous recontacte sous 24h. Merci !
+            </div>
+            <form id="devisForm" novalidate>
+              <div class="row gy-3">
+                <div class="col-sm-6">
+                  <label class="form-label-custom">Prénom et nom *</label>
+                  <input type="text" class="form-control-custom" id="fieldNom" placeholder="Ex : Jean Dupont" required />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label-custom">Téléphone *</label>
+                  <input type="tel" class="form-control-custom" id="fieldTel" placeholder="Ex : 06 12 34 56 78" required />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label-custom">Adresse email</label>
+                  <input type="email" class="form-control-custom" id="fieldEmail" placeholder="votre@email.fr" />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-label-custom">Ville d'intervention *</label>
+                  <input type="text" class="form-control-custom" id="fieldVille" placeholder="Ex : Orléans, Saran..." required />
+                </div>
+                <div class="col-12">
+                  <label class="form-label-custom">Type de prestation *</label>
+                  <select class="form-control-custom" id="fieldType" required>
+                    <option value="" disabled selected>Choisissez une prestation</option>
+                    <option>Dépannage urgence</option>
+                    <option>Plomberie & sanitaires</option>
+                    <option>Fuite d'eau</option>
+                    <option>Installation / remplacement chaudière</option>
+                    <option>Entretien chaudière</option>
+                    <option>Installation climatisation / PAC</option>
+                    <option>Rénovation salle de bain</option>
+                    <option>Débouchage canalisation</option>
+                    <option>Autre</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label class="form-label-custom">Description de votre besoin</label>
+                  <textarea class="form-control-custom" id="fieldMsg" rows="4" placeholder="Décrivez votre problème ou votre projet en quelques mots..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-primary-custom w-100 justify-content-center py-3" style="font-size:1rem;">
+                    <i class="bi bi-send-fill"></i>
+                    Envoyer ma demande de devis gratuit
+                  </button>
+                  <p style="font-size:.78rem;color:var(--gray-600);margin-top:.7rem;text-align:center;">
+                    <i class="bi bi-lock-fill me-1"></i>
+                    Vos données sont confidentielles et ne sont jamais transmises à des tiers.
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer>
+    <div class="container">
+      <div class="row gy-5">
+        <!-- Brand -->
+        <div class="col-lg-3 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="brand-icon-wrap" style="background:var(--blue-700)">
+              <i class="bi bi-droplet-half"></i>
+            </div>
+            <span class="footer-brand-name">Montegnies Steven</span>
+          </div>
+          <p class="footer-desc">
+            Plombier-chauffagiste-climaticien artisan basé à Boigny-sur-Bionne. Intervention rapide sur Orléans et tout le Loiret (45).
+          </p>
+          <div class="mt-3" style="font-size:.8rem;color:rgba(255,255,255,.4);">
+            SIRET : 989 334 990 &bull; NAF 4322A
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div class="col-lg-2 col-md-6">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Plomberie &amp; Sanitaires</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Chauffage &amp; Chaudière</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Climatisation &amp; PAC</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Dépannage Urgence</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Salle de bain</a></li>
+            <li><a href="#services"><i class="bi bi-chevron-right"></i> Entretien &amp; Maintenance</a></li>
+          </ul>
+        </div>
+
+        <!-- Zone -->
+        <div class="col-lg-3 col-md-6">
+          <h5>Zone d'intervention</h5>
+          <ul>
+            <li><a href="#zone"><i class="bi bi-geo-alt"></i> Orléans</a></li>
+            <li><a href="#zone"><i class="bi bi-geo-alt"></i> Boigny-sur-Bionne</a></li>
+            <li><a href="#zone"><i class="bi bi-geo-alt"></i> Saint-Jean-de-Braye</a></li>
+            <li><a href="#zone"><i class="bi bi-geo-alt"></i> Fleury-les-Aubrais</a></li>
+            <li><a href="#zone"><i class="bi bi-geo-alt"></i> Olivet — Saran — Ingré</a></li>
+            <li><a href="#zone" style="color:var(--orange)"><i class="bi bi-plus-circle"></i> + 15 communes</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="col-lg-4 col-md-6">
+          <h5>Contact</h5>
+          <div class="footer-contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <div>
+              <div style="font-size:.78rem;color:rgba(255,255,255,.45);margin-bottom:.1rem;">Téléphone</div>
+              <a href="tel:0238759673" class="footer-phone-link">02 38 75 96 73</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <div>
+              <div style="font-size:.78rem;color:rgba(255,255,255,.45);margin-bottom:.1rem;">Email</div>
+              <span>contact@montegnies-plomberie.fr</span>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div>
+              <div style="font-size:.78rem;color:rgba(255,255,255,.45);margin-bottom:.1rem;">Adresse</div>
+              <span>3 Rue de Ponchapt, 45760 Boigny-sur-Bionne</span>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-clock-fill"></i>
+            <div>
+              <div style="font-size:.78rem;color:rgba(255,255,255,.45);margin-bottom:.1rem;">Horaires</div>
+              <span>Lun – Sam : 7h00 – 20h00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2">
+          <p>&copy; 2025 Montegnies Steven — Plombier Chauffagiste Orléans. Tous droits réservés.</p>
+          <div class="d-flex gap-3">
+            <a href="#">Mentions légales</a>
+            <a href="#">Politique de confidentialité</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       CTA FLOTTANT MOBILE
+  ============================================================ -->
+  <div class="float-cta-bar">
+    <a href="tel:0238759673" class="float-btn-call">
+      <i class="bi bi-telephone-fill"></i>
+      Appeler
+    </a>
+    <a href="#contact" class="float-btn-devis">
+      <i class="bi bi-file-earmark-text-fill"></i>
+      Devis gratuit
+    </a>
+  </div>
+
+  <!-- ============================================================
+       SCRIPTS
+  ============================================================ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Navbar scroll effect
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    // Form handler
+    document.getElementById('devisForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nom   = document.getElementById('fieldNom').value.trim();
+      const tel   = document.getElementById('fieldTel').value.trim();
+      const ville = document.getElementById('fieldVille').value.trim();
+      const type  = document.getElementById('fieldType').value;
+
+      if (!nom || !tel || !ville || !type) {
+        // Highlight empty required fields
+        [
+          { id: 'fieldNom',   val: nom   },
+          { id: 'fieldTel',   val: tel   },
+          { id: 'fieldVille', val: ville },
+          { id: 'fieldType',  val: type  }
+        ].forEach(f => {
+          const el = document.getElementById(f.id);
+          if (!f.val) {
+            el.style.borderColor = 'var(--red)';
+            el.style.boxShadow = '0 0 0 3px rgba(198,40,40,.12)';
+          } else {
+            el.style.borderColor = '';
+            el.style.boxShadow = '';
+          }
+        });
+        return;
+      }
+
+      // Show success
+      this.style.display = 'none';
+      const successBox = document.getElementById('formSuccess');
+      successBox.style.display = 'flex';
+      successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+
+    // Reset field error on input
+    ['fieldNom','fieldTel','fieldVille','fieldType'].forEach(id => {
+      document.getElementById(id).addEventListener('input', function() {
+        this.style.borderColor = '';
+        this.style.boxShadow = '';
+      });
+    });
+  </script>
+</body>
+</html>
